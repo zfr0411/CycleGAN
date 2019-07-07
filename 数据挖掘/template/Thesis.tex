@@ -1,0 +1,182 @@
+%%&xelatex
+\documentclass[PHD]{sysuthesis}
+\usepackage[noindent]{ctex}
+\usepackage{xeCJK}
+\usepackage{setspace}
+%\usepackage[BoldFont]{xeCJK}  windows下可以选择使用这个package
+%\usepackage{layout}
+\usepackage{indentfirst}% not needed if xecjk
+\usepackage{ifthen}
+\usepackage{dcolumn}	% 
+\usepackage{multirow}	%
+\usepackage{mdwlist}	% 
+\usepackage{verbatim}	% 
+\usepackage{bm}
+\usepackage{diagbox}
+\usepackage{url}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\DeclareMathOperator{\diff}{d\!}
+\DeclareMathOperator{\ee}{e}
+\DeclareMathOperator{\imag}{i}
+\usepackage{amsfonts}
+\usepackage{amssymb}	% conflict with xunicode, thus go before it
+\usepackage{xltxtra}
+\usepackage{rotating}
+\usepackage{xunicode}
+\usepackage[justification=centering]{caption}
+\usepackage[oldenum]{paralist}
+\usepackage{enumerate}
+\usepackage{url}
+\usepackage{algorithmic}
+\usepackage[shortlabels]{enumitem}
+\usepackage{subfigure}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{tikz}
+\usepackage{amsbsy}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{subfigure}
+\usepackage{booktabs}
+\usepackage{fontspec}	%[no-math]
+\defaultfontfeatures{Mapping=tex-text}
+\newcommand{\captionvspace}{\vspace{1em}}
+%\setCJKmainfont{SimSun}  
+%\setCJKsansfont{SimHei} 
+
+\setCJKmonofont{STFangsong}
+
+\usepackage{graphicx}
+\graphicspath{{other/}}
+\usepackage[abs]{overpic}\setlength\unitlength{1bp}
+\usepackage{tikz}	% great picture package
+\usetikzlibrary{shapes.multipart}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.shapes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{shapes.symbols}
+\usepackage[version=3]{mhchem}	% \ce{} for typesetting chemical molecular
+\usepackage{hyperref}	% hyperref to URL or internal target
+\hypersetup{
+	%unicode,	% not use if XeLaTeX
+	%bookmarks,	% used by default
+	%CJKbookmarks,	% produce bookmarks localized for CJK, e.g., GB2312
+	colorlinks=false,	% for printing with gray printer
+	%linkcolor=blue,
+	%citecolor=blue,
+	%urlcolor=blue,
+	plainpages=true,
+	pdfauthor={},
+	pdftitle={},
+	pdfview=FitH,
+	pdfpagemode=UseOutlines
+}
+\usepackage{pdfpages}	% 并入答辩委员们签了名的扉页扫描版 
+\newtheorem{theorem}{\heiti{定理}}
+\newtheorem{lemma}{\heiti{引理}}
+\newtheorem{problem}{\heiti{问题}}
+\newtheorem{definition}{\heiti{定义}}
+\newtheorem{example}{\heiti{例子}}
+\let\proof\relax
+\let\endproof\relax
+\newenvironment{proof}{{\noindent\heiti 证明：}}{\hfill $\square$\par}
+\newcommand{\SL}[1]{\textcolor{red}{\textbf{[Todo: #1]}}}
+\newcommand{\tmop}[1]{\ensuremath{\operatorname{#1}}}
+%matrix & vector
+\newcommand*{\mat}[1]{\bm{\mathbf{#1}}}
+%set
+\newcommand*{\set}[1]{\mathcal{#1}}
+%function or variable
+\newcommand*{\fun}[1]{\mathit{#1}}
+%constant
+\newcommand*{\con}[1]{\mathnormal{#1}}
+\DeclareMathOperator{\Tr}{Tr}
+\newcommand{\Print}{\boolean{true}}%如果 false, 则会并入扉页扫描版 
+\makeatletter
+\newcommand{\AAstar}{\@ifstar{AA**}{AA}}	% 定义 \foo 和 \foo* 命令。
+\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+\makeatother
+\newcommand{\Verbatiminput}[1]{\noindent\rule{\textwidth}{2pt}{%
+	\small\linespread{0.9}\verbatiminput{#1}
+	}\noindent\rule{\textwidth}{2pt}}
+\newcommand{\Tips}[1]{\textcolor{red}{\textbf{[Tips: #1]}}}
+\renewcommand{\cleardoublepage}\clearpage
+%如下命令的格式为{中文}{英文}，保证全文统一。
+\title{
+}{ Image Style Conversion using Cycle-Consistent Adversarial Networks}
+\author{X\quad X\quad X}{XXX}
+\major{XXX}{}
+\minor{}
+\school{}
+\supervisor{}{}
+\date{}
+
+
+\begin{document}
+
+\pagestyle{empty}%
+\ifthenelse{\Print}{\maketitlepage[%
+	\begin{flushleft}
+		\sysufig
+		\begin{tabular}{rl@{}l}
+			\hspace{50mm}	&	&\\
+			\\
+			\\
+			\\
+			院系：		& \underline{\qquad\qquad 数据科学与计算机学院\qquad\qquad\qquad\qquad}	&\\
+			\\ \vspace{4mm}
+			专业：		&\underline{\qquad\qquad       通信软件   \qquad\qquad\qquad\qquad\qquad\qquad\qquad}	&	\vspace{3mm}\\
+			姓名：		&\underline{\qquad\qquad        周芙蓉     \qquad\qquad\qquad\qquad\qquad\qquad\qquad\quad}	&\\ 
+			\\ 
+			学号：&\underline{\qquad\qquad             16341023     \qquad\qquad\qquad\qquad\qquad\qquad\qquad}	&\\ 
+			\\ 
+%			&\underline{\qquad\qquad\qquad\qquad\qquad\qquad\qquad}	&\\ 
+		\end{tabular}
+
+	\end{flushleft}]}{\includepdf{main_title.pdf}}% 生成扉页或并入扫描版
+%\begin{figure}[!t]
+%	\includegraphics[width=0.25\textwidth]{images/PGM1.pdf}
+%\end{figure}
+%论文原创性声明和论文版权使用授权书
+%\frontmatter
+%\ifthenelse{\Print}{\input{frontmatter/frontmatter}}{%
+%	\includepdf{main_declare.pdf}}% 生成原创性声明或并入扫描版
+%\cleardoublepage\pagestyle{headings}\setcounter{page}{1}\pagenumbering{Roman}%
+
+%中英文摘要
+\input{abstract/abstract}
+
+%目录，自动生成，不用修改这里的任何东西。
+\setcounter{page}{1}\pagenumbering{roman}%
+\clearpage\setcounter{tocdepth}{1}%
+\tableofcontents
+%\clearpage\listoffigures
+%\clearpage\listoftables
+
+
+%正文
+\mainmatter
+%\layout
+\large
+%\input{mainbody/notations}
+\input{mainbody/chapters/foreword}   %前言，绪论等
+\input{mainbody/chapters/chapter1}
+\input{mainbody/chapters/chapter2}
+%\input{mainbody/chapters/chapter3}
+\input{mainbody/chapters/conclusion} % if need
+
+%引用论文
+%\bibliographystyle{unsrt}
+\bibliographystyle{sysuthesis}
+\bibliography{references}
+
+%附录
+%\appendix
+%\input{appendix/appendix}
+
+%附加材料
+\backmatter
+
+
+\end{document}

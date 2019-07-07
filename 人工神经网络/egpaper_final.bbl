@@ -1,0 +1,78 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{imagegen}
+E.~L. Denton, S. Chintala, R. Fergus, and et a.
+\newblock Deep gen- erative image models using a laplacian pyramid of ad-
+  versarial networks.
+\newblock {\em NIPS,}, 2015.
+
+\bibitem{texmodel}
+A.~A. Efros and T.~K. Leung.
+\newblock Texture synthesis by non-parametric sampling.
+\newblock 1999.
+
+\bibitem{GAN}
+I. Goodfellow, J. Pouget-Abadie, B.~Xu M.~Mirza, D. Warde-Farley, S. Ozair, A.
+  Courville, and Y. Ben-gio.
+\newblock Generative adversarial nets.
+\newblock {\em NIPS}, 2014.
+
+\bibitem{pix2pix}
+JP. Isola, J.-Y. Zhu, T.Zhou, and A.~A. Efros.
+\newblock Image- to-image translation with conditional adversarial net- works.
+\newblock {\em CVPR}, 2017.
+
+\bibitem{Isola}
+P. Isola, J.-Y. Zhu, T. Zhou, and A.~A. Efros.
+\newblock Image- to-image translation with conditional adversarial net- works.
+\newblock 2017.
+
+\bibitem{CoGAN}
+M.-Y. Liu and O. Tuzel.
+\newblock Coupled generative adversar- ial networks.
+\newblock 2016.
+
+\bibitem{CNN}
+J. Long, E. Shelhamer, , and T. Darrell.
+\newblock Fully convolu- tional networks for semantic segmentation.
+\newblock 2015.
+
+\bibitem{imagegen1}
+A. Radford, L. Metz, and S. Chintala.
+\newblock Unsupervised representation learning with deep convolutional gen-
+  erative adversarial networks.
+\newblock {\em ICLR}, 2016.
+
+\bibitem{replearn}
+T. Salimans, I. Goodfellow, W. Zaremba, V. Cheung, A. Radford, and X. Chen.
+\newblock Improved techniques for training gans.
+\newblock 2016.
+
+\bibitem{SimGAN}
+A. Shrivastava, T. Pfister, O. Tuzel, J. Susskind, W. Wang, and R. Webb.
+\newblock Learning from simulated and unsupervised images through adversarial
+  training.
+\newblock 2017.
+
+\bibitem{GAN1}
+J. Zhao, M. Mathieu, and Y. LeCun.
+\newblock Energy-based generative adversarial network.
+\newblock {\em ICLR}, 2017.
+
+\bibitem{CycleConsistencyLoss}
+T. Zhou, P. Krahenbuhl, M. Aubry, Q. Huang, and A.~A. Efros.
+\newblock Learning dense correspondence via 3d- guided cycle consistency.
+\newblock {\em CVPR}, 2016.
+
+\bibitem{CycleGAN}
+Jun-Yan Zhu, Taesung, Park~Phillip Isola, and Alexei~A. Efros.
+\newblock Unpaired image-to-image translation using cycle-consistent
+  adversarial networks.
+\newblock {\em CVPR}, 2017.
+
+\bibitem{imgaeedi}
+J.-Y. Zhu, P.~Kra ̈henbu ̈hl, E. Shechtman, and A.~A. Efros.
+\newblock Generative visual manipulation on the natural image manifold.
+\newblock {\em ECCV}, 2016.
+
+\end{thebibliography}

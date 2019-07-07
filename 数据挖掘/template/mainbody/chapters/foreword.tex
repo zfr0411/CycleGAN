@@ -1,0 +1,106 @@
+\chapter{\heiti \label{ch1}绪论}
+\section{\heiti 选题背景与意义}
+
+Handling another style of scene with different styles 
+is a time-consuming and laborious task and requires 
+a lot of professional drawing skills. 
+In order to obtain a high quality picture, 
+the original author must carefully draw each line 
+and paint each color area of the target scene. 
+It appears that existing art editing software and 
+algorithms with standard features do not produce 
+satisfactory comic effects. Therefore, 
+if professional technology can automatically convert 
+one style of photo into another, 
+it is very helpful for the artist: 
+it can save them a lot of time and 
+let them focus on More meaningful and creative work
+The goal of picture migration is to use 
+a paired picture training data set to learn 
+the mapping between the input picture 
+and the output picture, such as pix2pix\cite{pix2pix}, 
+however, there are no paired training data sets for many items.
+The innovation of CycleGAN\cite{Cyclegan} is that can migrate 
+picture content from the source domain to the target domain 
+without paired training data.
+
+\begin{enumerate}[（1）] 
+	\item When CycleGAN\cite{Cyclegan} is training, it only needs to 
+	input the image of the source domain and the image of the target domain.
+	This does not require the source domain to match the image content of the target domain.
+	
+	\item Based on cyclegan's CariGAN\cite{cGAN}, 
+	you can automatically convert live-action photos 
+	into formally exaggerated comics without paired images.
+	
+	\item With CycleGAN, not only convert between two types of images, 
+	but also convert between two objects, 
+	such as translating one person into another.
+	
+	
+\end{enumerate}
+
+
+\section{\heiti 国内外研究现状和相关工作}
+随着国内外研究者们对图像迁移越来越关注，
+出现了一系列的Cyclegan算法。
+在这一小节，我们简短的介绍四条相关工作 
+（Generative Adversarial Networks (GANs)、
+Image-to-Image Translation、
+Unpaired Image-to-Image Translation、
+Cycle Consistency）
+和其国内外研究现状。
+\subsection{\heiti Generative Adversarial Networks (GANs)}
+Generative Adversarial Networks (GANs)\cite{GAN,GAN1}
+have achieved impressive results in image generation\cite{imagegen,imagegen1},
+image editing \cite{imgaeedi}, 
+and representation learning\cite{imagegen1,replearn}.
+The key to the success of GAN is 
+the concept of confrontational loss, 
+which forces the generated image to be 
+indistinguishable from the real image in principle.
+
+\subsection{\heiti Image-to-Image Translation}
+The idea of image to image conversion 
+is to use a non-parametric texture model\cite{texmodel}
+ on a single input-output training image pair. 
+ The latest method uses the data set of 
+ input and output checks to learn the 
+ parameter conversion function through CNN\cite{CNN}. 
+ Our approach is based on the "pix2pix"\cite{pix2pix} 
+ framework of Isola et al\cite{Isola}.
+ It uses conditional generation of the network 
+ to learn the mapping from input to output images.
+
+
+\subsection{\heiti Unpaired Image-to-Image Translation}
+The similarity function between the predefined inputs 
+and outputs that does not depend on any particular task, 
+nor does it assume that we assume that the inputs 
+and outputs must be in the same low-dimensional 
+embedded space. This makes our approach a 
+universal solution for many visual and graphical tasks.
+
+\subsection{\heiti Cycle Consistency}
+In target tracking, language translation, 
+3D shape registration and so on. 
+There are also applications in CNN. 
+A similar loss was introduced to push G and F 
+to agree with each other.
+
+\section{\heiti 国内外研究现状}
+\begin{enumerate}[（1）] 
+	\item In 2018, researchers from Tsinghua University,
+	 City University of Hong Kong and Microsoft recently 
+	 proposed CariGAN\cite{cGAN}, which can automatically 
+	 convert live-action photos into formally 
+	 exaggerated cartoons without paired images.
+	
+	\item 
+	
+	
+\end{enumerate}
+
+
+
+% \newpage

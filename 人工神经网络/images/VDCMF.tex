@@ -1,0 +1,92 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{times}  %Required
+\usepackage{helvet}  %Required
+\usepackage{courier}  %Required
+\usepackage{url}  %Required
+\usepackage{graphicx}  %Required
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage{algorithm}
+\usepackage{color}
+\usepackage{algorithmic}
+\usepackage{subfigure}
+\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{mathtools}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{mdwlist}
+\usepackage[normalem]{ulem}
+\usepackage{amsfonts}
+\usepackage{wrapfig,lipsum,booktabs}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+\def \VCMF {VDCMF}
+\def \VDCMF {VDCMF}
+\newcommand{\SL}[1]{\textcolor{blue}{\textbf{SL: #1}}}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{Todo: #1}}}
+\begin{document}
+%
+\title{Variational  Deep Collaborative Matrix Factorization for Social Recommendation}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Teng Xiao\inst{1}\and
+Hong Shen\inst{1,2}
+}
+%
+\authorrunning{Teng.X et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{School of Data and Computer Science, Sun Yat-sen University, China \and
+School of Computer Science, The University of Adelaide, Adelaide, Australia
+\email{\{cstengxiao,hongsh01\}@gmail.com}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+In this paper, we propose a \textbf{V}ariational  \textbf{D}eep  \textbf{C}ollaborative \textbf{M}atrix \textbf{F}actorization  (\VCMF{}) algorithm %to improve the performance of matrix factorization (MF)
+for social recommendation that infers latent factors more effectively than existing methods
+% In order to address the matrix sparsity problem in traditional collaborative filtering-based methods, VDCMF
+by incorporating users' social trust information and items' content information into a deep generative framework.
+%Our model consider the rich item content and user social relation  that are generated through a deep neural network, which enables our \VCMF{}  to learn more latent representations of items.
+Unlike other neural networks based methods, our  deep generative model is not only effective in capturing the non-linearity among correlated variables but also powerful in predicting missing values under the collaborative inference. Applying Bayesian inference, we propose an efficient  expectation-maximization algorithm to learn the model's parameters. Experiments  on  two sparse datasets show that our \VCMF {} significantly outperforms major state-of-the-art CF methods for recommendation accuracy on common metrics. % with a significant improvement of 8.9\% $\sim$ 18.3\%.
+
+
+\keywords{Recommender System, Matrix Factorization, Deep Learning, Generative Model}
+\end{abstract}
+%
+%
+%
+\input{VDCMF-1}
+\input{VDCMF-2}
+\input{VDCMF-3}
+\input{VDCMF-4}
+\input{VDCMF-5}
+\input{VDCMF-6}
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{splncs04}
+\bibliography{references}
+%
+
+\end{document}

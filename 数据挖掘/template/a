@@ -1,0 +1,20 @@
+def forward(self, target_input, context, neg):
+       
+        v = self.input_emb(target_input)
+        u = self.output_emb(context)
+        positive_val = self.log_sigmoid(torch.sum(u * v, dim=1)).squeeze()
+
+        u_hat = self.output_emb(neg)
+        neg_vals = torch.bmm(u_hat, v.unsqueeze(2)).squeeze(2)
+        neg_val = self.log_sigmoid(-torch.sum(neg_vals, dim=1)).squeeze()
+
+        loss = positive_val + neg_val
+        return -loss.mean()
+        With the development of social media and e-commerce platforms, recommender systems have played an important and indispensable role. For instance, 80 percent of movies watched on Netflix and 60 percent of video clicks in YouTube both came from recommendation. The purpose of recommender systems is to quickly and effec- tively find the items that satisfy users’ preferences among a large number of items. More specifically, recommendation lists are generated based on user preferences, item features, user-item interaction data, and some other context information (such as temporal, spatial, sequence, social information, etc). How to use such information to capture the preference of users and items is one of the important problems in the current research field of recommender systems. Effective solution to this problem can not only bring huge benefits to the enterprise, but also help users quickly find the items they are interested in and improve their satisfaction.
+        Lpoint(Uˆ , Vˆ , θ, φ) =⟨log p(U|T, Uˆ Ni )p(V|Z)p(X|Z)p(R|U, V)⟩q − KL(qφ(Z|X)||p(Z)),
+-(item):这个模型将提出的模型的用户先验网络去掉。也就意味着等式4- 31中的 KL 项 KL(qφu (ui|Xi)||pρu (ui|fi)) 退化成 KL(qφu (ui|Xi)||N (0, ID))。我们将 这个变体算法缩写为 NVHCF-i。
+
+
+Zhang F, Yuan NJ, Lian D, Xie X, and Ma W. Collaborative Knowledge Base Embedding for Recommender Systems. Proceedings of the 22nd ACM SIGKDD
+
+由于深度生成模型[42, 43, 44] 具有捕捉不确定性和非线性能力，近些年出现了一 系列基于深度生成模型的推荐算法。在深度生成模型中，最具
