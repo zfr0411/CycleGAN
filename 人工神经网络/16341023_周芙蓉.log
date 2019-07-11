@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.30)  8 JUL 2019 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.30)  12 JUL 2019 00:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**egpaper_final.tex
-(./egpaper_final.tex
+**16341023_周芙蓉.tex
+(./16341023_周芙蓉.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -401,7 +401,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
-(./egpaper_final.aux
+(./16341023_周芙蓉.aux
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -409,7 +409,7 @@ LaTeX Warning: Label `' multiply defined.
 LaTeX Warning: Label `' multiply defined.
 
 )
-\openout1 = `egpaper_final.aux'.
+\openout1 = `16341023_周芙蓉.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -488,7 +488,7 @@ LaTeX Info: Redefining \nameref on input line 33.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 
-./egpaper_final.tex:52: Undefined control sequence.
+./16341023_周芙蓉.tex:52: Undefined control sequence.
 \@title ->\LaTex 
                  \ Image Style Conversion using Cycle-Consistent Adversarial...
 l.52 
@@ -513,7 +513,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 
 
-./egpaper_final.tex:78: Package inputenc Error: Unicode character ​ (U+200B)
+./16341023_周芙蓉.tex:78: Package inputenc Error: Unicode character ​ (U+2
+00B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -527,7 +528,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:78: Package inputenc Error: Unicode character ​ (U+200B)
+./16341023_周芙蓉.tex:78: Package inputenc Error: Unicode character ​ (U+2
+00B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -540,7 +542,7 @@ l.78    The core idea of ​​
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./egpaper_final.tex:88: Missing $ inserted.
+./16341023_周芙蓉.tex:88: Missing $ inserted.
 <inserted text> 
                 $
 l.88    L_
@@ -548,7 +550,7 @@ l.88    L_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./egpaper_final.tex:89: Missing $ inserted.
+./16341023_周芙蓉.tex:89: Missing $ inserted.
 <inserted text> 
                 $
 l.89 
@@ -556,7 +558,7 @@ l.89
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./egpaper_final.tex:90: Missing $ inserted.
+./16341023_周芙蓉.tex:90: Missing $ inserted.
 <inserted text> 
                 $
 l.90    + E_
@@ -564,7 +566,7 @@ l.90    + E_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./egpaper_final.tex:91: Missing $ inserted.
+./16341023_周芙蓉.tex:91: Missing $ inserted.
 <inserted text> 
                 $
 l.91 
@@ -583,8 +585,8 @@ File: system_diagram_v2.pdf Graphic file (type pdf)
 Package pdftex.def Info: system_diagram_v2.pdf  used on input line 113.
 (pdftex.def)             Requested size: 447.16759pt x 117.00885pt.
 
-./egpaper_final.tex:115: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:115: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -597,8 +599,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:115: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:115: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -611,8 +613,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:115: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:115: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -625,8 +627,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:115: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:115: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -639,8 +641,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:128: Package inputenc Error: Unicode character 、 (U+3001)
-
+./16341023_周芙蓉.tex:128: Package inputenc Error: Unicode character 、 (U+
+3001)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -653,8 +655,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:129: Package inputenc Error: Unicode character 、 (U+3001)
-
+./16341023_周芙蓉.tex:129: Package inputenc Error: Unicode character 、 (U+
+3001)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -667,8 +669,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:130: Package inputenc Error: Unicode character 、 (U+3001)
-
+./16341023_周芙蓉.tex:130: Package inputenc Error: Unicode character 、 (U+
+3001)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -693,8 +695,8 @@ Underfull \hbox (badness 1215) in paragraph at lines 133--141
 
 ]
 
-./egpaper_final.tex:174: Package inputenc Error: Unicode character ： (U+FF1A)
-
+./16341023_周芙蓉.tex:174: Package inputenc Error: Unicode character ： (U+
+FF1A)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -708,8 +710,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:174: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:174: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -723,8 +725,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:188: Package inputenc Error: Unicode character ≈ (U+2248)
-
+./16341023_周芙蓉.tex:188: Package inputenc Error: Unicode character ≈ (U+
+2248)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -737,8 +739,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:190: Package inputenc Error: Unicode character ≈ (U+2248)
-
+./16341023_周芙蓉.tex:190: Package inputenc Error: Unicode character ≈ (U+
+2248)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -750,7 +752,7 @@ l.190 ...ward agreement: y$\to$F(y)$\to$G(F(y))≈
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./egpaper_final.tex:216: Undefined control sequence.
+./16341023_周芙蓉.tex:216: Undefined control sequence.
 l.216 \subfigure
                 [a]{
 The control sequence at the end of the top line
@@ -764,7 +766,7 @@ File: images/agr.pdf Graphic file (type pdf)
 <use images/agr.pdf>
 Package pdftex.def Info: images/agr.pdf  used on input line 218.
 (pdftex.def)             Requested size: 201.22404pt x 103.22649pt.
-./egpaper_final.tex:220: Undefined control sequence.
+./16341023_周芙蓉.tex:220: Undefined control sequence.
 l.220 \subfigure
                 [b]{
 The control sequence at the end of the top line
@@ -789,8 +791,8 @@ Overfull \hbox (211.93167pt too wide) in paragraph at lines 216--234
  []
 
 
-./egpaper_final.tex:234: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:234: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -803,8 +805,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:234: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:234: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -817,8 +819,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:234: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:234: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -831,8 +833,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:234: Package inputenc Error: Unicode character → (U+2192)
-
+./16341023_周芙蓉.tex:234: Package inputenc Error: Unicode character → (U+
+2192)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -845,7 +847,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.tex:241: LaTeX Error: Environment algorithm undefined.
+./16341023_周芙蓉.tex:241: LaTeX Error: Environment algorithm undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -858,7 +860,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./egpaper_final.tex:242: LaTeX Error: \caption outside float.
+./16341023_周芙蓉.tex:242: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -872,8 +874,8 @@ If that doesn't work, type  X <return>  to quit.
 
 [2 <./system_diagram_v2.pdf> <./images/agr.pdf> <./images/agr1.pdf>]
 
-./egpaper_final.tex:262: LaTeX Error: \begin{document} ended by \end{algorithm}
-.
+./16341023_周芙蓉.tex:262: LaTeX Error: \begin{document} ended by \end{algor
+ithm}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -895,7 +897,7 @@ Underfull \hbox (badness 2197) in paragraph at lines 266--268
 \OT1/ptm/m/n/10 data set pro-vided by the orig-i-nal au-thor, the source
  []
 
-./egpaper_final.tex:274: Undefined control sequence.
+./16341023_周芙蓉.tex:274: Undefined control sequence.
 l.274     \subfigure
                     {
 The control sequence at the end of the top line
@@ -909,7 +911,7 @@ File: images/loss200_02.pdf Graphic file (type pdf)
 <use images/loss200_02.pdf>
 Package pdftex.def Info: images/loss200_02.pdf  used on input line 275.
 (pdftex.def)             Requested size: 228.5572pt x 152.37357pt.
-./egpaper_final.tex:288: Undefined control sequence.
+./16341023_周芙蓉.tex:288: Undefined control sequence.
 l.288     \subfigure
                     {
 The control sequence at the end of the top line
@@ -923,7 +925,7 @@ File: images/Test_result_164.png Graphic file (type png)
 <use images/Test_result_164.png>
 Package pdftex.def Info: images/Test_result_164.png  used on input line 290.
 (pdftex.def)             Requested size: 228.5572pt x 76.18555pt.
-./egpaper_final.tex:292: Undefined control sequence.
+./16341023_周芙蓉.tex:292: Undefined control sequence.
 l.292      \subfigure
                      {
 The control sequence at the end of the top line
@@ -937,7 +939,7 @@ File: images/Test_result_235.png Graphic file (type png)
 <use images/Test_result_235.png>
 Package pdftex.def Info: images/Test_result_235.png  used on input line 294.
 (pdftex.def)             Requested size: 228.5572pt x 76.18555pt.
-./egpaper_final.tex:295: Undefined control sequence.
+./16341023_周芙蓉.tex:295: Undefined control sequence.
 l.295        \subfigure
                        {
 The control sequence at the end of the top line
@@ -951,7 +953,7 @@ File: images/Test_result_86.png Graphic file (type png)
 <use images/Test_result_86.png>
 Package pdftex.def Info: images/Test_result_86.png  used on input line 297.
 (pdftex.def)             Requested size: 228.5572pt x 76.18555pt.
-./egpaper_final.tex:298: Undefined control sequence.
+./16341023_周芙蓉.tex:298: Undefined control sequence.
 l.298        \subfigure
                        {
 The control sequence at the end of the top line
@@ -965,7 +967,7 @@ File: images/Test_result_2.png Graphic file (type png)
 <use images/Test_result_2.png>
 Package pdftex.def Info: images/Test_result_2.png  used on input line 300.
 (pdftex.def)             Requested size: 228.5572pt x 76.18555pt.
-./egpaper_final.tex:344: Undefined control sequence.
+./16341023_周芙蓉.tex:344: Undefined control sequence.
 l.344     \subfigure
                     {
 The control sequence at the end of the top line
@@ -979,7 +981,7 @@ File: images/loss_200_02.png Graphic file (type png)
 <use images/loss_200_02.png>
 Package pdftex.def Info: images/loss_200_02.png  used on input line 346.
 (pdftex.def)             Requested size: 228.5572pt x 152.37357pt.
-./egpaper_final.tex:348: Undefined control sequence.
+./16341023_周芙蓉.tex:348: Undefined control sequence.
 l.348      \subfigure
                      {
 The control sequence at the end of the top line
@@ -993,7 +995,7 @@ File: images/loss_20_02.png Graphic file (type png)
 <use images/loss_20_02.png>
 Package pdftex.def Info: images/loss_20_02.png  used on input line 350.
 (pdftex.def)             Requested size: 228.5572pt x 152.37357pt.
-./egpaper_final.tex:358: Undefined control sequence.
+./16341023_周芙蓉.tex:358: Undefined control sequence.
 l.358      \subfigure
                      {
 The control sequence at the end of the top line
@@ -1007,7 +1009,7 @@ File: images/loss_20_015.png Graphic file (type png)
 <use images/loss_20_015.png>
 Package pdftex.def Info: images/loss_20_015.png  used on input line 360.
 (pdftex.def)             Requested size: 228.5572pt x 152.37357pt.
-./egpaper_final.tex:361: Undefined control sequence.
+./16341023_周芙蓉.tex:361: Undefined control sequence.
 l.361       \subfigure
                       {
 The control sequence at the end of the top line
@@ -1029,22 +1031,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./images/loss200_02.pdf> <./images/Test_result_164.png> <./images/Test_res
 ult_235.png> <./images/Test_result_86.png> <./images/Test_result_2.png>]
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(./code/CycleGAN.py
-LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <8> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 9.
-)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
- (./egpaper_final.bbl
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 402.
+
+(./16341023_周芙蓉.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 7.
  [4 <./images/loss_200_02.png> <./images/loss_20_02.png> <./images/loss_20_015.
 png> <./images/loss_20_030.png>]
 
-./egpaper_final.bbl:74: Package inputenc Error: Unicode character ̈ (U+0308)
+./16341023_周芙蓉.bbl:74: Package inputenc Error: Unicode character ̈ (U+03
+08)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -1057,7 +1054,8 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./egpaper_final.bbl:74: Package inputenc Error: Unicode character ̈ (U+0308)
+./16341023_周芙蓉.bbl:74: Package inputenc Error: Unicode character ̈ (U+03
+08)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -1070,28 +1068,28 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
  [5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
- (./egpaper_final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 418.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
+ (./16341023_周芙蓉.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 414.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 414.
  ) 
 Here is how much of TeX's memory you used:
- 9727 strings out of 492609
- 136366 string characters out of 6129048
- 469525 words of memory out of 5000000
- 13393 multiletter control sequences out of 15000+600000
- 38108 words of font info for 90 fonts, out of 8000000 for 9000
+ 9023 strings out of 492609
+ 129441 string characters out of 6129048
+ 247231 words of memory out of 5000000
+ 12727 multiletter control sequences out of 15000+600000
+ 36461 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,12n,49p,1770b,1727s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,12n,48p,1775b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -1105,16 +1103,15 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/urw/courier/ucrro8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utm
-bi8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on egpaper_final.pdf (5 pages, 1796675 bytes).
+mf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
+1/urw/times/utmbi8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on 16341023_周芙蓉.pdf (5 pages, 1778863 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
